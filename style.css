@@ -39,7 +39,7 @@ h1 + p {
 .offering {
 	height: 800px;
 	width: auto;
-	background: url(background.jpg) no-repeat center fixed; 
+	background: url(Images\background.jpg) no-repeat center fixed; 
 	background-size: cover;
 	text-align: center;
 }
