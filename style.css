@@ -16,7 +16,7 @@ h1 + p {
 	margin-top: 50px;
 	height: 400px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: auto (8 1fr);
 	justify-content: space-around;
 	border: 5px solid grey;
 	align-items: center;
