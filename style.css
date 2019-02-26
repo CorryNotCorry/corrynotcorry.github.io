@@ -1,59 +1,56 @@
 
-body,
-html {
-  width: 100%;
-  height: 100%; 
+h1, h2, p {
+	text-align: center;
+	font-family: 'Righteous', cursive;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+h1 + p {
+	font-size: 30px;
+}
+.rugbycards {
+	/*margin-top: 50px;*/
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 5px solid grey;
+	align-items: center;
 }
 
-hr {
-  max-width: 65px;
-  border-width: 3px;
-  border-color: #F05F44; 
+.card {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	transition: 1s ease-in-out;
 }
 
-.faded {
-  color: rgba(255, 255, 255, 0.8); 
+.card-text {
+	line-height: 1px;
+	font-size: 10px;
 }
 
-header.startup {
-  background-position: center;
-  background-image: url("header.jpg");
-  background-size: cover;
-  height: 100%;
+.embed-responsive .card-img-top {
+    object-fit: cover;
 }
 
-header.startup hr {
-  margin-top: 200px;
-  margin-bottom: 30px; 
+.card:hover{
+	transform: scale(1.6);	
+}
+.offering {
+	height: 800px;
+	width: auto;
+	background: url(background.jpg) no-repeat center fixed; 
+	background-size: cover;
+	text-align: center;
 }
 
-header.startup h1 {
-  font-size: 2rem; 
+.offering p {
+	font-size: 30px;
+	color: #C2BBB1;
+	font-family: 'Maven Pro', sans-serif;
+	text-shadow: 2px grey;
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
+.card-title {
+	text-align: center;
 }
-
-.btn-xl {
-  padding: 1rem 2rem; 
-}
-
-.btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 5px;
-  cursor: pointer;
-}
-  
